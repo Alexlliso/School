@@ -1,4 +1,5 @@
 <?php
+namespace Com\Iesebre\Dam2\alexlliso\Persons;
 
 /**
  * Created by PhpStorm.
@@ -35,6 +36,37 @@ class Person
 
     public $country;
     public $type = "person";
+
+    /**
+     * Person constructor.
+     * @param string $type
+     * @param $personalId
+     * @param $givenName
+     * @param $sn1
+     * @param $sn2
+     * @param $email
+     * @param $address
+     * @param $postalAddress
+     * @param $locality
+     * @param $postalCode
+     * @param $state
+     * @param $country
+     */
+    public function __construct($type, $personalId, $givenName, $sn1, $sn2, $email, $address, $postalAddress, $locality, $postalCode, $state, $country)
+    {
+        $this->type = $type;
+        $this->personalId = $personalId;
+        $this->givenName = $givenName;
+        $this->sn1 = $sn1;
+        $this->sn2 = $sn2;
+        $this->email = $email;
+        $this->address = $address;
+        $this->postalAddress = $postalAddress;
+        $this->locality = $locality;
+        $this->postalCode = $postalCode;
+        $this->state = $state;
+        $this->country = $country;
+    }
 
 
     /**
