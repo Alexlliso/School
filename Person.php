@@ -34,7 +34,7 @@ class Person
     public $state;
 
     public $country;
-
+    public $type = "person";
 
 
     /**
@@ -44,7 +44,10 @@ class Person
     {
         return $this->personalId;
     }
-
+    public function render()
+    {
+        echo "The name of this {$this->type} is " . $this->getGivenName();
+    }
     /**
      * @param mixed $personalId
      */
@@ -93,7 +96,7 @@ class Person
     }
 
     /**
-     * @param mixed $sn1
+     * @param mixed $sn2
      */
     public function setSn2($sn2)
     {

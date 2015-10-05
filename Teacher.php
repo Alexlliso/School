@@ -6,10 +6,16 @@
  * Date: 5/10/15
  * Time: 18:06
  */
-class Teacher extends Worker
+class Teacher extends Person
 
+{
+    use Worker;
     public $specialization;
 
-
+    public function render()
+    {
+        $this->type = "teacher";
+        parent::render() . "and her salary is" . $this->salary;
+    }
 
 }
