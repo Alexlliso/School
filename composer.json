@@ -1,0 +1,16 @@
+{
+    "name": "pau/school",
+    "description": "bla bla bla",
+    "authors": [
+        {
+            "name": "Pau Fores",
+            "email": "paufores@iesebre.com"
+        }
+    ],
+    "autoload": {
+        "psr-4" : {
+            "Com\\Iesebre\\Dam2\\paufores\\" : "Classes"
+        }
+    },
+    "require": {}
+}
