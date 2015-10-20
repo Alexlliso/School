@@ -13,4 +13,4 @@ $ composer install
 
 # Pàgina web
 
-http://Alexlliso.github.io/School
+[Web propia](http://Alexlliso.github.io/School)
