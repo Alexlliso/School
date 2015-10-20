@@ -4,7 +4,7 @@ Per instal·lar executeu:
 
 ```bash
 $ composer install
-'''
+```
 
 # Diagrama UML
 
@@ -13,4 +13,4 @@ $ composer install
 
 # Pàgina web
 
-[Alexlliso.github.io/School](http://Alexlliso.github.io/School)
+http://Alexlliso.github.io/School
